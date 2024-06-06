@@ -44,6 +44,7 @@ nav {
 
 .nav-links li {
     position: relative;
+    right: 40px;
 }
 
 .nav-links .dropbtn {
@@ -54,12 +55,14 @@ nav {
     cursor: pointer;
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
+    text-align: center;
 }
 
 .nav-links .dropdown-content {
     display: none;
     position: fixed;
-    background-color: #f9f9f9;
+    background-color: #24283b;
+    border-radius: 6px;
     min-width: 160px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     z-index: 1;
@@ -73,7 +76,7 @@ nav {
 }
 
 .nav-links .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #3d59a1;
 }
 
 .nav-links .dropdown:hover .dropdown-content {
@@ -101,7 +104,12 @@ nav {
     position: relative;
     top: 50px;
     z-index: 1;
+
     font-family: "Quicksand", sans-serif;
+}
+
+#resurse_btn{
+    right: 15px;
 }
 
 .section {
