@@ -16,6 +16,7 @@ nav {
     top: 0;
     width: 100%;
 }
+
 .noFontChange{
     font-family: "Quicksand", sans-serif;
     color: #f1f1f1;
@@ -27,6 +28,7 @@ nav {
     font-size: 24px;
     padding: 10px;
 }
+
 .separator{
     font-family: "Quicksand", sans-serif;
     font-size: 16px;
@@ -89,6 +91,7 @@ nav {
     height: 100%;
     z-index: -1;
 }
+
 #title{
     position: relative;
     justify-content: center;
@@ -97,6 +100,7 @@ nav {
     top: 50px;
     color: #f1f1f1;
 }
+
 .content {
     display: flex;
     justify-content: space-between;
@@ -152,3 +156,5 @@ footer {
     margin-right: 10px;
 }
 
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown-content a:hover {background-color: #ddd;}
