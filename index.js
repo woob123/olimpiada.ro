@@ -45,3 +45,29 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+let toggler = document.getElementsByClassName("caret");
+
+for (let i = 0; i < toggler.length; i++) {
+    toggler[i].addEventListener("click", function() {
+        let nestedList = this.parentElement.querySelector(".nested");
+        if (nestedList) {
+            // Toggle the active class for the clicked nested list
+            nestedList.classList.toggle("active");
+
+            // Toggle the caret icon
+            this.classList.toggle("caret-down");
+
+            // Toggle the caret icon class
+            let icon = this.querySelector("i");
+            icon.classList.toggle("fa-caret-down");
+            icon.classList.toggle("fa-caret-up");
+        }
+    });
+}
+
+
+
+
+
+
+
